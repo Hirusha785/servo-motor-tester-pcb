@@ -1,0 +1,49 @@
+** Drc report for Servo Motor Tester.kicad_pcb **
+** Created on 2026-05-17T20:30:39+0530 **
+
+** Found 10 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(128.0000 mm, 85.5000 mm): Segment on Edge.Cuts
+    @(137.6800 mm, 95.5700 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(128.0000 mm, 85.5000 mm): Segment on Edge.Cuts
+    @(155.8200 mm, 95.5700 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(126.5000 mm, 116.4571 mm): Segment on Edge.Cuts
+    @(126.2750 mm, 104.0800 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(126.5000 mm, 116.4571 mm): Segment on Edge.Cuts
+    @(128.9350 mm, 98.8800 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(126.5000 mm, 116.4571 mm): Segment on Edge.Cuts
+    @(128.9350 mm, 101.4800 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(162.7678 mm, 116.2500 mm): Segment on Edge.Cuts
+    @(160.4400 mm, 99.7450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(162.7678 mm, 116.2500 mm): Segment on Edge.Cuts
+    @(160.4400 mm, 102.2850 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(162.7678 mm, 116.2500 mm): Segment on Edge.Cuts
+    @(160.4400 mm, 104.8850 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(162.7678 mm, 116.2500 mm): Segment on Edge.Cuts
+    @(163.1000 mm, 97.1450 mm): Segment on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'LED_Oval_W5.2mm_H3.8mm' does not match copy in library 'LED_THT'.
+    Local override; warning
+    @(130.2500 mm, 95.2700 mm): Footprint D2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
