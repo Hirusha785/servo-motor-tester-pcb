@@ -78,7 +78,44 @@ In this circuit, the **NE555 timer** works as an adjustable pulse generator. The
 > ⚠️ Always verify the servo motor pinout before connecting. Different servo brands may use different wire color arrangements.
 
 ---
+## 🖼️ Project Photos
 
+### 1. Schematic Diagram
+
+<img width="1368" height="538" alt="image" src="https://github.com/user-attachments/assets/cfaf9a5d-2d86-48a1-a397-da435bb6595d" />
+
+![Servo Motor Tester PCB Layout](images/pcb-layout.png)
+
+This schematic shows the NE555 timer-based PWM circuit, power input section, LED indicator, timing components, potentiometer, and servo output connector.
+
+---
+
+### 2. PCB Layout
+
+<img width="866" height="806" alt="image" src="https://github.com/user-attachments/assets/b598e549-6842-4686-8bf2-60dddd74edbb" />
+
+![Servo Motor Tester PCB Layout](images/pcb-layout.png)
+
+This image shows the final routed PCB layout with component placement, traces, copper fill, connectors, mounting holes, and silkscreen labels.
+
+---
+
+### 3. 3D  View
+
+
+<img width="606" height="641" alt="image" src="https://github.com/user-attachments/assets/84d22ae5-ea61-4fea-9c8c-d8e375e10370" />
+<img width="1170" height="655" alt="image" src="https://github.com/user-attachments/assets/30e9959f-f44c-455f-a0ce-22b27bdadc6f" />
+<img width="844" height="734" alt="image" src="https://github.com/user-attachments/assets/a12577ee-5930-411f-8120-1d02a3218bae" />
+<img width="928" height="766" alt="image" src="https://github.com/user-attachments/assets/10f4d68e-8b25-43d4-9d56-2997560288fe" />
+
+![Servo Motor Tester 3D Front View](images/3d-front-view.png)
+
+This 3D view shows the completed PCB design with all through-hole components, including the NE555 IC, potentiometer, resistors, diode, capacitor, LED, and connectors.
+
+---
+
+
+---
 ## ⚡ Power Supply
 
 Recommended input supply:
