@@ -1,2 +1,87 @@
-# servo-motor-tester-pcb
-📟 Beginner-friendly servo motor tester PCB project for electronics learning, prototyping, and KiCad-based PCB design practice.
+# 🔧 Servo Motor Tester PCB
+
+A compact PCB design for testing and controlling hobby servo motors using a 555 timer-based PWM signal generator. This project is designed for electronics learning, servo testing, prototyping, and basic embedded hardware experimentation.
+
+---
+
+## 📌 Project Overview
+
+The **Servo Motor Tester PCB** allows users to generate a variable PWM signal to test standard servo motors without needing a microcontroller such as Arduino or ESP32. The circuit is based on the **NE555 timer IC**, with a potentiometer used to adjust the servo position by varying the pulse width.
+
+This PCB is useful for checking servo motor movement, validating servo wiring, testing power connections, and learning basic PWM control concepts.
+
+---
+
+## ✨ Features
+
+- 🔧 NE555-based PWM signal generation  
+- 🎚️ Potentiometer control for servo position adjustment  
+- 🔌 Dedicated 3-pin servo output connector  
+- ⚡ 6V DC input supply connector  
+- 💡 Power indicator LED  
+- 🧩 Compact PCB layout  
+- 🛠️ Beginner-friendly through-hole component design  
+- 📐 Designed using KiCad  
+
+---
+
+## 🧠 How It Works
+
+Servo motors are controlled using a PWM signal. A typical hobby servo expects a pulse every 20 ms, where the pulse width determines the motor position.
+
+Typical servo control range:
+
+| Pulse Width | Servo Position |
+|------------|----------------|
+| ~1.0 ms | 0° |
+| ~1.5 ms | 90° |
+| ~2.0 ms | 180° |
+
+In this circuit, the **NE555 timer** works as an adjustable pulse generator. The potentiometer changes the timing resistance, which changes the output pulse width. This output signal is sent to the servo motor through the signal pin.
+
+---
+
+## 🧾 Components Used
+
+| Reference | Component | Value / Type |
+|----------|-----------|--------------|
+| U1 | Timer IC | NE555P |
+| RV1 | Potentiometer | 100kΩ |
+| R1 | Resistor | 3.3kΩ |
+| R2 | Resistor | 56kΩ |
+| R3 | Resistor | 1kΩ |
+| C1 | Capacitor | 22nF |
+| D1 | Diode | 1N4148 |
+| D2 | LED | Power Indicator |
+| J1 | Power Connector | 2-pin input |
+| J2 | Servo Connector | 3-pin output |
+
+---
+
+## 🔌 Pin Connections
+
+### Power Input - J1
+
+| Pin | Function |
+|-----|----------|
+| 1 | +6V DC |
+| 2 | GND |
+
+### Servo Output - J2
+
+| Pin | Function |
+|-----|----------|
+| 1 | Signal |
+| 2 | VCC |
+| 3 | GND |
+
+> ⚠️ Always verify the servo motor pinout before connecting. Different servo brands may use different wire color arrangements.
+
+---
+
+## ⚡ Power Supply
+
+Recommended input supply:
+
+```text
+6V DC
